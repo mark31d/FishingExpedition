@@ -19,7 +19,7 @@ import { SPOTS } from '../Components/spots';
 
 const { width } = Dimensions.get('window');
 const CARD_W        = width * 0.85;
-const HEADER_H      = 120;
+const HEADER_H      = 140;
 const H_PAD         = 20;
 const ICON_SIZE     = 46;
 
