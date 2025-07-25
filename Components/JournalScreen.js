@@ -202,7 +202,7 @@ const b = StyleSheet.create({
            borderWidth:1, borderColor:'#ffffff80' },
   inner:{ flex:1, borderBottomLeftRadius:RADIUS, borderBottomRightRadius:RADIUS, backgroundColor:'#1D7FA8',
           paddingTop:PAD_TOP, justifyContent:'center', alignItems:'center' },
-  backBtn:{ position:'absolute', left:20, top:PAD_TOP+4, padding:8 },
+  backBtn:{ position:'absolute', left:20, top:PAD_TOP+4, padding:8  , top:62},
   backIcon:{ width:24, height:24, tintColor:'#FFFFFF' },
   h1:{ width: width*0.8, textAlign:'center', color:'#FFFFFF', fontSize:24, fontWeight:'700' },
 });
