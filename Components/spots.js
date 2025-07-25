@@ -1,0 +1,143 @@
+// data/spots.js
+export const SPOTS = {
+    spring: [
+      {
+        name: 'Loch Lomond, Scotland',
+        desc: 'Famous for its picturesque views, Loch Lomond offers a serene experience with great trout and salmon fishing.',
+        coords: { lat: 56.0003, lon: -4.5709 },
+        address: 'Loch Lomond, Alexandria, Scotland',
+        fish: 'Brown Trout, Rainbow Trout, Atlantic Salmon',
+        img: require('../assets/loch_lomond.png'),
+      },
+      {
+        name: 'River Test, Hampshire',
+        desc: 'Known for its crystal-clear waters, River Test is perfect for fly fishing, especially in spring when the river is teeming with trout.',
+        coords: { lat: 51.0554, lon: -1.4337 },
+        address: 'River Test, Hampshire, England',
+        fish: 'Brown Trout, Grayling, Salmon',
+        img: require('../assets/river_test.png'),
+      },
+      {
+        name: 'Lake Windermere, Cumbria',
+        desc: 'This lake is popular for its peaceful atmosphere and provides opportunities for fishing different types of trout.',
+        coords: { lat: 54.3806, lon: -2.9036 },
+        address: 'Lake Windermere, Ambleside, Cumbria',
+        fish: 'Brown Trout, Perch, Pike',
+        img: require('../assets/windermere.png'),
+      },
+      {
+        name: 'Rutland Water, Rutland',
+        desc: 'A vast reservoir with excellent facilities, perfect for both novice and experienced anglers.',
+        coords: { lat: 52.6204, lon: -0.6783 },
+        address: 'Rutland Water, Oakham, Rutland',
+        fish: 'Rainbow Trout, Pike, Perch',
+        img: require('../assets/rutland.png'),
+      },
+    ],
+  
+    summer: [
+      {
+        name: 'River Wye, Herefordshire',
+        desc: 'Beautiful scenery and varied summer fishing opportunities for beginner and advanced anglers.',
+        coords: { lat: 52.1183, lon: -2.7026 },
+        address: 'River Wye, Ross-on-Wye, Herefordshire',
+        fish: 'Barbel, Chub, Brown Trout',
+        img: require('../assets/wye.png'),
+      },
+      {
+        name: 'Loch Ness, Scotland',
+        desc: 'Legendary lake with excellent opportunities for trout and salmon during summer.',
+        coords: { lat: 57.3229, lon: -4.4244 },
+        address: 'Loch Ness, Inverness, Scotland',
+        fish: 'Brown Trout, Salmon, Pike',
+        img: require('../assets/loch_ness.png'),
+      },
+      {
+        name: 'Coniston Water, Cumbria',
+        desc: 'Stunning lake with great water conditions when fish are most active.',
+        coords: { lat: 54.3682, lon: -3.0585 },
+        address: 'Coniston Water, Coniston, Cumbria',
+        fish: 'Perch, Pike, Trout',
+        img: require('../assets/coniston.png'),
+      },
+      {
+        name: 'Chew Valley Lake, Somerset',
+        desc: 'Calm waters and abundant species make it a summer favourite.',
+        coords: { lat: 51.3783, lon: -2.5394 },
+        address: 'Chew Valley Lake, Bristol, Somerset',
+        fish: 'Rainbow Trout, Brown Trout, Perch',
+        img: require('../assets/chew_valley.png'),
+      },
+    ],
+  
+    autumn: [
+      {
+        name: 'Firth of Clyde, Scotland',
+        desc: 'Optimal autumn conditions for sea trout and salmon.',
+        coords: { lat: 55.8590, lon: -4.8700 },
+        address: 'Firth of Clyde, Ayrshire, Scotland',
+        fish: 'Atlantic Salmon, Sea Trout, Cod',
+        img: require('../assets/clyde.png'),
+      },
+      {
+        name: 'River Avon, Warwickshire',
+        desc: 'Renowned river with excellent autumn fishing.',
+        coords: { lat: 52.2066, lon: -1.5610 },
+        address: 'River Avon, Stratford-upon-Avon, Warwickshire',
+        fish: 'Barbel, Chub, Brown Trout',
+        img: require('../assets/avon.png'),
+      },
+      {
+        name: 'Blenheim Palace Lake, Oxfordshire',
+        desc: 'Beautiful, tranquil location perfect for carp and trout.',
+        coords: { lat: 51.8400, lon: -1.3505 },
+        address: 'Blenheim Palace, Woodstock, Oxfordshire',
+        fish: 'Common Carp, Brown Trout, Perch',
+        img: require('../assets/blenheim.png'),
+      },
+      {
+        name: 'Glen Etive, Scotland',
+        desc: 'Picturesque valley river, incredible for salmon.',
+        coords: { lat: 56.5712, lon: -5.1699 },
+        address: 'Glen Etive, Ballachulish, Scotland',
+        fish: 'Atlantic Salmon, Brown Trout, Rainbow Trout',
+        img: require('../assets/etive.png'),
+      },
+    ],
+  
+    winter: [
+      {
+        name: 'Torridon, Scotland',
+        desc: 'Quiet winter experience for sea trout and salmon.',
+        coords: { lat: 57.5484, lon: -5.5341 },
+        address: 'Torridon, Wester Ross, Scotland',
+        fish: 'Atlantic Salmon, Sea Trout, Brown Trout',
+        img: require('../assets/torridon.png'),
+      },
+      {
+        name: 'Derwent Reservoir, Tyne and Wear',
+        desc: 'Calm waters and excellent trout fishing.',
+        coords: { lat: 54.9690, lon: -1.8040 },
+        address: 'Derwent Reservoir, Consett, Tyne and Wear',
+        fish: 'Brown Trout, Rainbow Trout, Perch',
+        img: require('../assets/derwent.png'),
+      },
+      {
+        name: 'Haweswater, Lake District',
+        desc: 'Tranquil waters for a quiet winter retreat.',
+        coords: { lat: 54.5006, lon: -2.8710 },
+        address: 'Haweswater, Lake District, Cumbria',
+        fish: 'Brown Trout, Pike, Perch',
+        img: require('../assets/haweswater.png'),
+      },
+      {
+        name: 'Fazeley Reservoir, West Midlands',
+        desc: 'Plenty of opportunities to catch large pike and perch.',
+        coords: { lat: 52.5947, lon: -1.7552 },
+        address: 'Fazeley Reservoir, Tamworth, West Midlands',
+        fish: 'Pike, Perch, Bream',
+        img: require('../assets/fazeley.png'),
+      },
+    ],
+  };
+  
